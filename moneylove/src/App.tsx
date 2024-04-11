@@ -5,7 +5,7 @@ import Layout from './layout/Layout';
 function App() {
   return (
     <Provider store={store}>
-      <Layout></Layout>
+      <Layout/>
     </Provider>
   )
 }

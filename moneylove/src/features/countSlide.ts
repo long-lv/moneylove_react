@@ -6,12 +6,12 @@ export const countSlice = createSlice({
     count: 0
   },
   reducers: {
-    increatement: (state) => {
+    increment: (state) => {
       state.count = state.count +1;
     },
   },
 });
 
-export const { increatement} = countSlice.actions;
+export const { increment: increment} = countSlice.actions;
 
 export default countSlice.reducer;
